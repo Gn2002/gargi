@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title>Gargi N</title>
+  </head>
+  <body>
+    <h1>Gargi N</h1>
+    <p>Welcome to my digital scrapbook. I write about my work at Pintel AI, my travels, things I find cool, and postcards from the past.</p>
+    <ul>
+      <li><a href="pintel.html">Work @ Pintel</a></li>
+      <li><a href="travel.html">Travel Log</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="postcards.html">Postcards from the Past</a></li>
+    </ul>
+  </body>
+</html>
