@@ -6,41 +6,94 @@
   <title>Gargi N's Scrapbook</title>
   <style>
     body {
+      margin: 0;
       font-family: Georgia, serif;
-      background: #f9f7f1;
-      color: #333;
-      max-width: 700px;
-      margin: 40px auto;
-      padding: 0 20px;
-      line-height: 1.6;
+      background: #fff;
+      color: #000;
+      display: flex;
+      min-height: 100vh;
     }
-    h1 {
-      font-weight: normal;
-      border-bottom: 1px solid #ccc;
-      padding-bottom: 10px;
+    nav {
+      width: 160px;
+      padding: 20px;
+      border-right: 1px solid #ddd;
+      box-sizing: border-box;
+      position: fixed;
+      height: 100vh;
+      overflow-y: auto;
     }
     nav a {
-      margin-right: 15px;
+      display: block;
+      margin-bottom: 10px;
       text-decoration: none;
-      color: #0066cc;
+      color: black;
+      font-size: 16px;
     }
     nav a:hover {
       text-decoration: underline;
     }
-    section {
-      margin-top: 30px;
+    main {
+      margin-left: 180px;
+      padding: 20px;
+      max-width: 700px;
+      line-height: 1.6;
+    }
+    h1 {
+      font-weight: normal;
+      margin-top: 0;
+      margin-bottom: 1em;
+    }
+    section + section {
+      margin-top: 3em;
     }
     footer {
-      margin-top: 50px;
-      font-size: 0.9em;
-      color: #666;
-      border-top: 1px solid #ccc;
-      padding-top: 10px;
+      margin-top: 4em;
+      font-size: 0.8em;
+      border-top: 1px solid #ddd;
+      padding-top: 1em;
+      color: #444;
     }
   </style>
 </head>
 <body>
-  <h1>Gargi N’s Scrapbook</h1>
-
   <nav>
-    <a href="#work">Work @ Pintel AI<
+    <a href="#work">Work @ Pintel AI</a>
+    <a href="#travels">Travels</a>
+    <a href="#projects">Projects</a>
+    <a href="#cool">Cool Finds</a>
+    <a href="#postcards">Postcards</a>
+  </nav>
+  <main>
+    <h1>Gargi N’s Scrapbook</h1>
+
+    <section id="work">
+      <h2>Work @ Pintel AI</h2>
+      <p>Sharing thoughts and learnings from my journey at an early-stage AI startup.</p>
+    </section>
+
+    <section id="travels">
+      <h2>Travels</h2>
+      <p>Stories and photos from my adventures around the world.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>Side projects, experiments, and things I’m building or exploring.</p>
+    </section>
+
+    <section id="cool">
+      <h2>Cool Finds</h2>
+      <p>Interesting ideas, articles, and tools I’ve discovered recently.</p>
+    </section>
+
+    <section id="postcards">
+      <h2>Postcards from the Past</h2>
+      <p>Snapshots and memories from earlier days, collected here.</p>
+    </section>
+
+    <footer>
+      &copy; 2025 Gargi N | <a href="https://github.com/Gn2002" target="_blank" rel="noopener">GitHub</a>
+    </footer>
+  </main>
+</body>
+</html>
